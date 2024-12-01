@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  .header {
+    width: auto;
+    background-color: white;
+  }
+  
+  .main {
+    width: auto;
+    height: 200px;
+    background-color: white;
+    
+  }
+  
+  .navBar {
+    display: inline-block;
+    align-items: center;
+    margin-left: 28%; /*responsive arasında bosluk*/
+    margin-top: 6%;
+  }
+  
+  .navBar a {
+    margin-right:60px;
+    font-size: 20px;
+    color: black;
+  }
+  #Main_Page_logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 725px;
+  }
+  .header h1 {
+    margin-left: 43%;
+    margin-top: 5%;
+    font-family: font-family 'DM Sans', sans-serif;
+  }
+  
+  h4{
+  
+    margin-right: 50px;
+  }
+   
+  #çizgi{
+  
+    float: right;
+    margin-top: 80px;
+  }
+  
+  #solÇizgi{
+    margin-top: 80px;
+    float: left;
+  }
+   #ara-baslık{
+    position: absolute;
+    top: 368px; 
+    left: 700px;
+    font-size: 20px; 
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  .card {
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 1%;  
+    
+    }
+  
+    .giyim-card {
+      padding-top: 20%;
+      background-color: white;
+      margin: -30%;
+      margin-left: 40%;
+  }
+  .giyim-card h3 {
+      font-size: 25px;
+    
+  }
+  .p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .giyim-card-text{
+    margin: -30%;
+    margin-left: -40%;
+    margin-top: 30%;
+  }
+  .giyim-card p {
+      font-size: 22px;
+      color: black;
+      width: 100%;
+      height: 100%;
+  }
+  .row {
+      
+      margin-left: 8%; 
+  }
+  .button {
+    background-color: white;
+  
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 66%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .button:hover{
+    background-color: gray;
+    color: white;
+    
+  
+  }
+  #image {
+      height: 409px;
+      width: 307px;
+      margin-bottom: 5%;
+  }
+  #footer{
+    position: relative;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+   background-color: #d3d4cb;
+    color: white;
+    text-align: center;
+   margin-top: 10px;
+  }
+  .sütun{
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 22px;
+  }
+  .sütun ul{
+    display: inline-block;
+    margin-right: 5%;
+    list-style-type: none;
+    margin-top: 150px;
+    padding-left: 100px;
+  }
+  .sütun ul li a{
+    color: #4e4f52;
+    font-family: initial;
+  }
+  
+  #logo-sütun{
+  margin-bottom: 20px;
+  padding: 50px;
+  }
+        /* ekran maks 1200px boyutu olduğunda.. */
+        @media screen and (max-width: 1200px) {
+          #ara-baslık{
+            top: 346px; 
+            left: 483px;
+            font-size: 20px; 
+          }
+          #Main_Page_logo{
+            width: 70px;
+            height: 70px;
+            margin-left: 475px;
+          }
+         }
+               
+  @media screen and (max-width: 800px) {
+        .navBar a {
+          margin-left: 40%;
+        }
+        .navBar {
+          margin-left: 10%; 
+        }
+        .card {
+          margin-top: 5%;
+        }
+        #footer {
+          height: 550px;
+        }
+        #ara-baslık{
+          top: 366px; 
+          left: 290px;
+          font-size: 20px; 
+        }
+        .header h1 {
+          margin-left: 38%;
+          margin-top: 5%;
+          font-family: font-family 'DM Sans', sans-serif;
+        }
+        #Main_Page_logo{
+          width: 70px;
+          height: 70px;
+          margin-left: 337px;
+        }
+        /*footer aşağıya */ 
+   }
+         /* ekran maks 1200px boyutu olduğunda.. */
+  @media screen and (max-width: 480px) {
+    .header h1 {
+      margin-left: 22%;
+      margin-top: 5%;
+      font-family: font-family 'DM Sans', sans-serif;
+    }
+    #ara-baslık{
+      top: 328px; 
+      left: 150px;
+      font-size: 11px; 
+    }
+    .navBar a {
+      margin-left: 28%;
+    }
+    .card {
+      margin-top: 5%;
+      padding-right: 25%;
+    }
+    #footer {
+      height: 700px;
+      width: 500px;
+      
+    }
+  #footer ul{
+    margin-right: 200px;
+  }
+    .sütun{
+      margin-left: 3px;
+      margin-top: 60px;
+      font-size: 22px;
+    }
+    .sütun ul {
+      display: inline-block;
+      margin-right: 5%;
+      list-style-type: none;
+      margin-top: 100px;
+      padding-left: 100px;
+    }
+    #Main_Page_logo {
+      width: 50px;
+      height: 50px;
+      margin-left: 160px;
+      margin-top: 3%;
+    }
+   }

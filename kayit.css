@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+  }
+  
+  .header {
+    width: auto;
+    background-color: white;
+  }
+  
+  .main {
+    width: auto;
+    height: 200px;
+    background-color: white;
+  }
+  .navBar {
+    display: inline-block;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 6%;
+  }
+  
+  .navBar a {
+    margin-right:80px;
+    font-size: 20px;
+    color: black;
+  }
+  .header h1 {
+    margin-left: 43%;
+    margin-top: 5%;
+    font-family: font-family 'DM Sans', sans-serif;
+  }
+
+.satir-grup{
+    font-size: 25px;
+    padding-top: 8%;
+}
+#Başlık{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 2%;
+}
+.satır{
+    padding-bottom: 2%;
+}
+.iletişim-form{
+    margin-left: 30%;
+    margin-top: 12%;
+    padding-top: 4%;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    border: solid;
+}
+
+#buton {
+    margin-top: 6%;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 6%;
+}
+#Main_Page_logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 725px;
+  }
+  @media screen and (max-width: 800px) {
+    .navBar a {
+      margin-left: 40%;
+    }
+    .navBar {
+      margin-left: 10%; 
+    }
+    .card {
+      margin-top: 5%;
+    }
+    .header h1 {
+      margin-left: 38%;
+      margin-top: 5%;
+      font-family: font-family 'DM Sans', sans-serif;
+    }
+    .iletişim-form{
+      margin-left: 5%;
+      margin-top: 12%;
+      padding-top: 4%;
+      width: 600px;
+      height: 500px;
+      background-color: white;
+      text-align: center;
+      border: solid;
+  }
+  #Main_Page_logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 337px;
+  }
+    /*footer aşağıya */ 
+}
+@media screen and (max-width: 480px) {
+  .header h1 {
+    margin-left: 22%;
+    margin-top: 5%;
+    font-family: font-family 'DM Sans', sans-serif;
+  }
+  .navBar a {
+    margin-left: 28%;
+  }
+  .sütun{
+    margin-left: 3px;
+    margin-top: 60px;
+    font-size: 22px;
+  }
+  .sütun ul{
+    display: inline-block;
+    margin-right: 5%;
+    list-style-type: none;
+    margin-top: 100px;
+    padding-left: 100px;
+  }
+  .iletişim-form{
+    margin-left: 7%;
+    margin-top: 12%;
+    padding-top: 4%;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    border: solid;
+}
+#Main_Page_logo{
+  width: 70px;
+  height: 70px;
+  margin-left: 725px;
+}
+#Main_Page_logo{
+  width: 70px;
+  height: 70px;
+  margin-left: 140px;
+}
+}
+
+#footer{
+  position: relative;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 350px;
+ background-color: #d3d4cb;
+  color: white;
+  text-align: center;
+ margin-top: 10px;
+}
+
+.sütun{
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 22px;
+}
+.sütun ul{
+  display: inline-block;
+  margin-right: 5%;
+  list-style-type: none;
+  margin-top: 150px;
+  padding-left: 100px;
+}
+.sütun ul li a{
+  color: #4e4f52;
+  font-family: initial;
+}
+
+#logo-sütun{
+margin-bottom: 20px;
+padding: 50px;
+}
+      /* ekran maks 1200px boyutu olduğunda.. */
+      @media screen and (max-width: 1200px) {
+        #ara-baslık{
+          top: 346px; 
+          left: 483px;
+          font-size: 20px; 
+        }
+        #Main_Page_logo{
+          width: 70px;
+          height: 70px;
+          margin-left: 475px;
+        }
+       }
+             
+@media screen and (max-width: 800px) {
+      .navBar a {
+        margin-left: 40%;
+      }
+      .navBar {
+        margin-left: 10%; 
+      }
+      .card {
+        margin-top: 5%;
+      }
+      #footer {
+        height: 550px;
+      }
+      #ara-baslık{
+        top: 366px; 
+        left: 290px;
+        font-size: 20px; 
+      }
+      .header h1 {
+        margin-left: 38%;
+        margin-top: 5%;
+        font-family: font-family 'DM Sans', sans-serif;
+      }
+      #Main_Page_logo{
+        width: 70px;
+        height: 70px;
+        margin-left: 337px;
+      }
+      /*footer aşağıya */ 
+ }
+       /* ekran maks 1200px boyutu olduğunda.. */
+@media screen and (max-width: 480px) {
+  .header h1 {
+    margin-left: 22%;
+    margin-top: 5%;
+    font-family: font-family 'DM Sans', sans-serif;
+  }
+  #ara-baslık{
+    top: 328px; 
+    left: 150px;
+    font-size: 11px; 
+  }
+  .navBar a {
+    margin-left: 28%;
+  }
+  .card {
+    margin-top: 5%;
+    padding-right: 25%;
+  }
+  #footer {
+    height: 700px;
+    width: 500px;
+    
+  }
+#footer ul{
+  margin-right: 200px;
+}
+  .sütun{
+    margin-left: 3px;
+    margin-top: 60px;
+    font-size: 22px;
+  }
+  .sütun ul {
+    display: inline-block;
+    margin-right: 5%;
+    list-style-type: none;
+    margin-top: 100px;
+    padding-left: 100px;
+  }
+  #Main_Page_logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    margin-top: 3%;
+  }
+ }
