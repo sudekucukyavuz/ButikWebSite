@@ -1,0 +1,1 @@
+Bu proje, butik kıyafet satışı yapan Shell Design için geliştirilmiş bir web sitesini temsil etmektedir. Web sitesi, kullanıcı dostu tasarımıyla ürünleri sergileyip, alışveriş deneyimini kolaylaştırmak için responsive bir yapıda oluşturulmuştur.
